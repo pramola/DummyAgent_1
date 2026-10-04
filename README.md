@@ -3,6 +3,9 @@ Here the focus in Langchain fundamentals and the concepts that are core to engin
 The use case or customer scenario can be later targeted or implemented and thus a project can be made after that.
 Later on focus for public viewership can be targeted to connect/impress/share learning with others/recruiters/developers/friends.
 
+#Remember
+To make a .venv folder using the internal venv module of python using python -m venv .venv
+here the -m is to point towards internal module find & initialize
 
 Part 1 : 
 This project is made to run on local ollama setup as due to spending constraints. The model here picked is qwen3.5:4b model(2.5GB size) as it supports tool calling + multi-modal. This model can run on a 4GB Graphics and 16GB ram as it is 4.5 bit quantized Q4_K_M .
