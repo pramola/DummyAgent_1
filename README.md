@@ -5,4 +5,4 @@ Later on focus for public viewership can be targeted to connect/impress/share le
 
 
 Part 1 : 
-This project is made to run on local ollama setup as due to spending constraints. The model here picked is qwen3.5:2b model as it supports tool calling + multi-modal. This model can run on a 4GB Graphics and 16GB ram.
+This project is made to run on local ollama setup as due to spending constraints. The model here picked is qwen3.5:4b model(2.5GB size) as it supports tool calling + multi-modal. This model can run on a 4GB Graphics and 16GB ram as it is 4.5 bit quantized Q4_K_M .
