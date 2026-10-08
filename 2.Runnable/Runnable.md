@@ -98,7 +98,8 @@ RunnableParallel : This class runs multiple Runnables concurrently on the same i
 Think of it as one input → multiple paths → combined output.
 ``` RunnableParallel(summary=summary_chain, translation=translation_chain).
 #If input is "Hello world", both chains receive "Hello world".
-#The result is roughly: {"summary": ..., "translation": ...}.```
+#The result is roughly: {"summary": ..., "translation": ...}.
+```
 Unlike RunnableSequence, the steps don't depend on each other's output.
 RunnableSequence = A → B → C.
 RunnableParallel = A, B, C run independently at the same time.
