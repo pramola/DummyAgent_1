@@ -176,11 +176,14 @@ RunnablePassthrough = "Don't modify this input; just pass it along."
 
 RunnableEach :
 This class applies the same Runnable to every item in a list/collection.
+
 Think of it as a loop over inputs.
 Example: input = [1, 2, 3].
 Runnable = lambda x: x * 2.
 RunnableEach applies it to 1, 2, and 3.
 Output becomes [2, 4, 6].
+
+
 So conceptually: list → apply Runnable to each item → list.
 It is useful when you have multiple independent inputs to process.
 It differs from RunnableParallel, which runs different Runnables on the same input.
