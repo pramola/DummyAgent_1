@@ -1,13 +1,13 @@
-Text splitter are the components that are responsible for splitting/dividing whole document into smaller chunks/parts.
+Text splitter are the components that are responsible for splitting/dividing whole document into smaller chunks/parts.  
 
-Document can be very large and loading at a single time is failure prone. No model can take all documents at a single time . They are limited by context window size and large text causes more computation leading to expensive operations.
+Document can be very large and loading at a single time is failure prone. No model can take all documents at a single time . They are limited by context window size and large text causes more computation leading to expensive operations.  
 
-Smaller chunks/parts that are splitted can be done in different ways.
+Smaller chunks/parts that are splitted can be done in different ways.  
 
-Character Based Splitting:
-    Splitting by fixed characters or count . 
-    One way is splitting by 10 words. Thus it creates an array/list of 10-word sentences.
-    Another way is by newline character. Thus it creates a list of all sentences.
+Character Based Splitting:  
+    Splitting by fixed characters or count .   
+    One way is splitting by 10 words. Thus it creates an array/list of 10-word sentences.  
+    Another way is by newline character. Thus it creates a list of all sentences.  
 
 Recursive splitting:  
     Splitting by bigger seperators constraints. The sequence of splitting selection is   
