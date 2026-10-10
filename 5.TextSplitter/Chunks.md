@@ -20,3 +20,9 @@ Structure Based Splitting:
 
 Semantic Splitting:
     Using a dedicated splitting model that tries to catch semantic meanings of paragraphs, sentences and thus it can be very beneficial and multiple paragraphs can point towards similar knowledge.
+    How it works:
+        Split text into individual sentences.
+        Compute an embedding vector for each sentence.
+        Calculate cosine similarity between consecutive sentences.
+        Where similarity drops below a threshold (a "semantic boundary"), a new chunk begins.
+        Chunks are merged if they're too small, respecting a max size limit.
